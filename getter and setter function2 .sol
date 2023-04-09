@@ -7,7 +7,7 @@
      uint age = 20;
      function gatter() public view returns(uint)
      {
-          return age;
+           return age;
 
      }
      function setter(uint newAge) public 
