@@ -2,7 +2,7 @@
 
 pragma solidity >= 0.5.0 < 0.9.0;
 
-contract state
+  contract state
 {
     uint public count;
 
