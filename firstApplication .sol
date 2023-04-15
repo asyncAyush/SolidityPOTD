@@ -14,7 +14,7 @@ count +=1;
 }
 function dec() public 
 {
-count -=1;
+ count -=1;
 }
 }
 
