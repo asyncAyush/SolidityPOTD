@@ -19,7 +19,7 @@ contract CrowedFunding{
         uint noOfVoters;
         mapping(address=>bool) voters;
     }
-    mapping(uint=>Request) public requests;
+       mapping(uint=>Request) public requests;
     uint public numRequests;
 
     constructor(uint _target, uint _deadline){
