@@ -11,7 +11,7 @@ contract CrowedFunding{
     uint public raisedAmount;
     uint public noOfContributors;
 
-    struct Request{
+      struct Request{
         string description;
         address payable recipient;
         uint value;
