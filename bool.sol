@@ -2,8 +2,7 @@
 
 pragma solidity >= 0.3.0 <0.9.0;
 
-contract array
-{
+contract array{
     bool public value = true;
 
     function check( uint a) public returns (bool)
